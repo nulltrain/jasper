@@ -7,7 +7,7 @@ tags: speeches fiction
 subclass: 'post tag-speeches'
 categories: 'casper'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/nulltrain_logo.png'
 author: casper
 ---
 

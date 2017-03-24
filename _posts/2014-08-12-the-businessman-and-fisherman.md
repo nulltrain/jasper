@@ -7,7 +7,7 @@ tags: fables fiction
 subclass: 'post tag-test tag-content'
 categories: 'casper'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/nulltrain_logo.png'
 author: casper
 ---
 

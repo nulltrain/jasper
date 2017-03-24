@@ -4,18 +4,19 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-uk'
+language: 'en-au'
 
 # Website info
-name: 'Finding The Way Home'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+name: 'nulltrain'
+description: "A collaborative blogging effort by three developers. <br>Together we might publish occasionally."
+logo: 'assets/images/nulltrain_logo.png'
 
-url: 'http://biomadeira.github.io/jasper/'
-short_url: 'biomadeira.github.io/jasper/'
+url: 'http://nulltrain.github.io/'
+short_url: 'nulltrain.github.io/'
 google_analytics: UA-69281367-1
-disqus: username
+disqus: nulltrain
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper/
+baseurl: /
 
 # Permalinks
 permalink: /:title
@@ -48,13 +49,13 @@ exclude: [vendor]
 # or "master" otherwise
 safe: false
 lsi: false
-username: biomadeira
-repo: jasper
+username: nulltrain
+repo: nulltrain.github.io
 branch: master
 relative_source: ../jasper/
 destination: ../jasper-pages/
-production_url:  https://biomadeira.github.io/jasper/
-source_url:      https://github.com/biomadeira/jasper/
+production_url:  https://nulltrain.github.io/
+source_url:      https://github.com/nulltrain/nulltrain.github.io/
 
 exclude:
   - README.md

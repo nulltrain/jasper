@@ -8,7 +8,7 @@ subclass: 'post tag-fiction'
 categories: 'casper'
 cover: 'assets/images/cover2.jpg'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/nulltrain_logo.png'
 author: casper
 ---
 

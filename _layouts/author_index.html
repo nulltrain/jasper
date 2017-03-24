@@ -5,7 +5,7 @@ cover: 'assets/images/cover4.jpg'
 class: 'author-template'
 navigation: True
 label: Author
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/nulltrain_logo.png'
 ---
 
 {% assign author = site.data.authors[page.author] %}
@@ -21,7 +21,11 @@ logo: 'assets/images/ghost.png'
 <!-- #author  -->
 <header class="main-header author-head {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
-        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
+        {% if page.logo %}
+            <a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>
+        {% else %}
+            <a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ site.logo }}" alt="Blog Logo" /></a>
+        {% endif %}
         {% if page.navigation %}
         <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {% endif %}
@@ -44,7 +48,8 @@ logo: 'assets/images/ghost.png'
     {% endif %}
     <div class="author-meta">
         {% if author.location %}<span class="author-location icon-location">{{ author.location }}</span>{% endif %}
-        {% if author.url %}<span class="author-link icon-link"><a href="{{ author.url }}">{{ author.url }}</a></span>{% endif %}
+        {% if author.twitter %}<span class="author-link icon-twitter"><a href="https://twitter.com/{{ author.twitter }}" target="_blank"> @{{ author.twitter }}</a></span>{% endif %}
+        {% if author.url %}<span class="author-link icon-link"><a href="{{ author.url }}" target="_blank">{{ author.url }}</a></span>{% endif %}
         <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
         <span class="author-stats">
             <i class="icon-stats"></i>
