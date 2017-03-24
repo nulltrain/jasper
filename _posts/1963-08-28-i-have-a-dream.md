@@ -8,7 +8,7 @@ subclass: 'post tag-speeches'
 categories: 'casper'
 navigation: True
 cover: 'assets/images/cover4.jpg'
-author: noevidenz
+author: casper
 ---
 
 I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.
