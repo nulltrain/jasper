@@ -1,0 +1,21 @@
+casper:
+  name: Casper McFadden
+  display_name: casper
+  image: 'assets/images/casper.png'
+  bio: "A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one."
+  location: "Maine, USA"
+  email: casper@example.com
+  url: http://biomadeira.github.io/jasper/
+  twitter:
+  github:
+
+noevidenz:
+  name: Kyle Murphy
+  display_name: noevidenz
+  image:
+  bio:
+  location: "Melbourne, Australia"
+  email: noevidenz@gmail.com
+  url: http://noevidenz.io
+  twitter: noevidenz
+  github: noevidenz
