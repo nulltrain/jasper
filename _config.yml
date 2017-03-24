@@ -51,7 +51,8 @@ safe: false
 lsi: false
 username: nulltrain
 repo: nulltrain.github.io
-branch: master
+source_branch: publish
+destination_branch: master
 relative_source: ../jasper/
 destination: ../jasper-pages/
 production_url:  https://nulltrain.github.io/
