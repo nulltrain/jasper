@@ -13,6 +13,30 @@
    
 	
 	<item>
+	  <title>Test blog post</title>
+	  <link>//test-blog-post</link>
+	  <author>noevidenz</author>
+	  <pubDate>2017-03-24T18:22:00+00:00</pubDate>
+	  <guid>//test-blog-post</guid>
+	  <description><![CDATA[
+	     <h4 id="sometimes-i-stay-up-too-late">Sometimes I stay up too late.</h4>
+
+<p>It’s something I’ve always done. Usually it’s just watching TV or playing video games.
+Tonight it’s Star Trek: The Next Generation and throwing together this website.</p>
+
+<p>Let me tell you, TNG has aged.</p>
+
+<p>After a pretty shaky start, it does seem like the show is starting to find it’s feet. 
+It’s like the funding finally came through after the first 3 episodes and they were 
+finally able to put some money into the costume department, instead of just making do with 
+whatever was lying around after that stage production of Ben Hur.</p>
+
+
+	  ]]></description>
+	</item>
+
+	
+	<item>
 	  <title>A Full and Comprehensive Style Test</title>
 	  <link>//a-full-and-comprehensive-style-test</link>
 	  <author>casper</author>
